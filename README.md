@@ -48,4 +48,5 @@ For any questions or feedback, please reach out to mshoaib@uwaterloo.ca.
 ## License
 This project is licensed under the MIT License.
 
-Project endorsed by: ![image](https://github.com/user-attachments/assets/c6d1441f-a316-400f-8571-d56965eda46f)
+Project endorsed by: 
+![image](https://github.com/user-attachments/assets/c6d1441f-a316-400f-8571-d56965eda46f)
