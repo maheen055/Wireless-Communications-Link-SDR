@@ -1,2 +1,37 @@
 # Wireless-Communications-Link-SDR
-This project aims to design and implement a wireless communications link using Software-Defined Radio (SDR) technology. The primary objective is to gain practical experience in wireless communication principles by creating a unidirectional link that transmits and receives digital data over-the-air using MATLAB and SDR hardware.
+
+## Overview
+This project focuses on developing a wireless communications link using Software-Defined Radio (SDR) with MATLAB and Simulink. The goal is to transmit and receive over-the-air (OTA) signals, addressing practical challenges in wireless communication. 
+
+Gain practical experience in wireless communication by designing inexpensive software-defined radios. This project provides a hands-on approach to learning about propagation loss, synchronization loss, and other critical aspects of wireless data transmission.
+
+## Project Goals
+- Design and implement a wireless communication link.
+- Optimize for criteria such as transfer speed, reliability, or security.
+- Develop a receiver capable of carrier frequency synchronization and error correction.
+- Document the entire process to facilitate learning and knowledge sharing.
+
+## Technologies Used
+- **MATLAB**: For modeling and simulation.
+- **Simulink**: For visual programming and simulation of the wireless link.
+- **Software-Defined Radio (SDR)**: Such as USRP or ADALM-Pluto for transmission and reception.
+
+## Steps
+1. Select source data and break it down into bundles of bits.
+2. Design OTA transmission scheme, including modulation type and optional forward error correction.
+3. Model a channel in software, accounting for impairments expected in the actual link.
+4. Build a corresponding receiver that accomplishes carrier frequency synchronization, timing synchronization, and frame synchronization.
+5. Decode the source bits.
+6. Once the link works as expected in software, remove the channel model and transmit and receive using SDR hardware.
+7. Optimize your design for selected criteria such as throughput, reliability, or security.
+
+## Project Structure
+- `/src`: Source code and MATLAB scripts
+- `/docs`: Documentation and resources
+- `/data`: Sample data used for testing and simulation
+- `README.md`: Project overview and instructions
+
+## Getting Started
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/maheen055/Build-a-Wireless-Communications-Link.git
